@@ -1,0 +1,19 @@
+.container {
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    justify-content: center;
+    display: grid;
+}
+
+.item {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.a-head {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
